@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>The <time id="time2"> </time> Element Showcase</h1>
+    <h2>Examples of the <time id="time1">.</time> Element</h2>
+    <h3>Date Only <time id="dateOnly">.</time></h3>
+        <p>The following is a date: <time id="dateOnly">.</time></p>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+    <h3></h3>
+
+    <script>
+      // Get current date & time
+      const now = new Date();
+
+      // Format parts
+      const hours = now.getHours().toString().padStart(2, "0");
+      const minutes = now.getMinutes().toString().padStart(2, "0");
+      const date = now.toISOString().split("T")[0]; // YYYY-MM-DD
+      const iso = now.toISOString();
+
+      // Insert into <time> elements
+      document.getElementById("time1").textContent = `${hours}:${minutes}`;
+      document.getElementById("time1").dateTime = `${hours}:${minutes}`;
+
+      document.getElementById("time2").textContent = `${hours}:${minutes}`;
+      document.getElementById("time2").dateTime = `${hours}:${minutes}`;
+
+      document.getElementById("dateOnly").textContent = date;
+      document.getElementById("dateOnly").dateTime = date;
+
+      document.getElementById("dateTime").textContent = now.toString();
+      document.getElementById("dateTime").dateTime = iso;
+
+      document.getElementById("iso").textContent = iso;
+      document.getElementById("iso").dateTime = iso;
+
+      document.getElementById("locale").textContent = now.toLocaleString();
+      document.getElementById("locale").dateTime = iso;
+    </script>
+  </body>
+</html>
