@@ -1,0 +1,21 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 90px;
+    border: solid;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.o_visible{
+    overflow: visible;
+}
+
+.o_hidden{
+    overflow: hidden;
+}
+
+.o_scroll{
+    overflow: scroll;
+}

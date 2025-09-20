@@ -1,0 +1,92 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+p{
+    padding-bottom: 1.5rem;
+}
+
+ol{
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+ul{
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dot-list{
+    list-style-type: disc;
+}
+
+.square-list{
+    list-style-type: square;
+}
+
+.circle-list{
+    list-style-type: circle;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #bfbfbf; /* darker gray header */
+  font-weight: bold;
+  text-align: left;
+}
+
+td {
+  text-align: center;
+  text-align: left;
+}
+
+td:first-child {
+  text-align: left; /* country column aligned left */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* light gray for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #fff; /* white for odd rows */
+}
+
+blockquote {
+  border-left: 4px solid #ccc; /* gray vertical line */
+  padding-left: 25px;          /* spacing between line and text */
+  margin: 20px 0;              /* top and bottom spacing */
+  font-style: italic;          /* keep the italic look */
+  color: #333;                 /* text color */
+  margin-left: 20px;
+  position: relative;
+}
+
+.quote-author {
+  display: block;
+  text-align: right;  /* pushes it to the right */
+  margin-top: 10px;
+  font-style: italic; /* keeps the italic style */
+}
+

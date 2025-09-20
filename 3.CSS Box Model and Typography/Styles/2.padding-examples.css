@@ -1,0 +1,17 @@
+.uniform_padding{
+    padding: 20px;
+    border: solid;
+    margin: 10px 0;
+}
+
+.non_uniform_padding{
+    padding: 10px 30px 20px 40px;
+    border: solid;
+    margin: 10px 0;
+}
+
+.percentage_padding{
+    padding: 5%;
+    border: solid;
+    margin: 10px 0;
+}

@@ -1,0 +1,22 @@
+div{
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.f_width{
+    width: 300px;
+}
+
+.p_width{
+    width: 50%;
+}
+
+.viewport{
+    width: 50vw;
+}
+
+.min_max_width{
+    min-width: 100px;
+    max-width: 300px;
+}
