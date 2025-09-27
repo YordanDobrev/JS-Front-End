@@ -1,0 +1,37 @@
+.margin{
+    border: 2px dotted brown;
+    background-color: orange;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.border{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 2px dotted;
+    background-color: yellow;
+    height: 140px;
+}
+
+.padding{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 2px dotted;
+    background-color: greenyellow;
+    height: 80px;
+}
+
+.content{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    border: 2px dotted;
+    background-color: lightblue;
+    height: 30px;
+    text-align: center;
+
+}

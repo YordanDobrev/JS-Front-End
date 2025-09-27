@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    min-height: 100vh; /* Using min-height to set height */
+    background-image: url(../Images/image2.jpg);
+    background-size: cover; /* Makes sure image fills container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    position: relative; /* Needed for absolute positioning of header text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+    position: absolute;
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+    top: 55%;
+    left: 50%;
+    font-size: 20px;
+}

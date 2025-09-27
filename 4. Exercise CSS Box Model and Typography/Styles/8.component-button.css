@@ -1,0 +1,38 @@
+body{
+    margin: 30px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none !important;
+    color: inherit !important;
+    text-decoration-line: none !important;
+}
+
+.b1{
+    background-color: lightgrey;
+}
+
+.b2{
+    background-color: orange;
+}
+
+.b3{
+    border: 1px solid lightgray;
+    background-color: lightyellow;
+}
+
+.b4{
+    border: 1px solid lightgray;
+    background-color: white;
+}
+
+.edit{
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+}

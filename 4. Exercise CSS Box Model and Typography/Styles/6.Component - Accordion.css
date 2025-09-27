@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+}
+
+  details {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* remove default arrow in some browsers */
+  }
+
+  summary::-webkit-details-marker {
+    display: none; /* remove default marker in Chrome/Safari */
+  }
+
+  details[open] summary::before {
+    content: "▾ "; /* down arrow when open */
+  }
+
+  summary::before {
+    content: "▸ "; /* right arrow when closed */
+  }
+
+  details p {
+    margin-top: 8px;
+  }

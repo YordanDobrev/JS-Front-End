@@ -1,0 +1,11 @@
+div{
+    border: 2px solid blue;
+}
+
+.centered{
+    border: 2px solid;
+    margin:25px;
+    height: 80px;
+    place-items: center;
+    display: grid;
+}

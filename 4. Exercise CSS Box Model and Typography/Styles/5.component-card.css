@@ -1,0 +1,26 @@
+body{
+    border: 2px solid lightgray;
+    margin: 30px auto;
+    padding: 10px 30px;
+    width: 900px;
+    border-radius: 1%;
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+li{
+    margin: 20px 0;
+    font-size: 1.05em;
+}
+
+.top_info{
+    font-size: 1.2rem;
+}
+
+.bottom_info{
+    font-style: italic;
+}
