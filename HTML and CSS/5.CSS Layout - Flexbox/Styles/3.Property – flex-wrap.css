@@ -1,0 +1,42 @@
+.flex-wrap-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-wrap-nowrap .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-wrap .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+
+.flex-wrap-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-wrap-wrap-reverse .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
