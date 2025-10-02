@@ -1,0 +1,49 @@
+.default-order{
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.default-order .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.custom-order{
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.custom-order .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.custom-order .flex-item:nth-of-type(1){
+    order: 5;
+}
+
+.custom-order .flex-item:nth-of-type(2){
+    order: 3;
+}
+
+.custom-order .flex-item:nth-of-type(3){
+    order: 1;
+}
+
+.custom-order .flex-item:nth-of-type(4){
+    order: 6;
+}
+
+.custom-order .flex-item:nth-of-type(5){
+    order: 2;
+}
+
+.custom-order .flex-item:nth-of-type(6){
+    order: 4;
+}

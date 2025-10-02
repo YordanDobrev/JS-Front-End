@@ -1,0 +1,76 @@
+.flex-grow{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-grow .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow-one{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-grow-one .flex-item{
+    flex-grow: 1;
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow-two{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-grow-two .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow-two .flex-item:nth-of-type(2){
+    flex-grow: 1;
+}
+
+.flex-grow-proportionally{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-grow-proportionally .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow-proportionally .flex-item:nth-of-type(1){
+    flex-grow: 1;
+}
+
+.flex-grow-proportionally .flex-item:nth-of-type(2){
+    flex-grow: 2;
+}
+
+.flex-grow-proportionally .flex-item:nth-of-type(3){
+    flex-grow: 3;
+}

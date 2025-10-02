@@ -1,0 +1,43 @@
+.flex-basis{
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-basis .flex-item{
+    flex-basis: 5em;
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-shrink-zero{
+    display: flex;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-shrink-zero .flex-item{
+    flex-basis: 5em;
+    flex-shrink: 0;
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-grow-one{
+    display: flex;
+    width: 900px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-grow-one .flex-item{
+    flex-basis: 5em;
+    flex-grow: 1;
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}

@@ -1,0 +1,47 @@
+.flex-container-gap-row{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2em 0;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-container-gap-row .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-container-gap-column{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0 2em;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-container-gap-column .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-container-gap{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+}
+
+.flex-container-gap .flex-item{
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
